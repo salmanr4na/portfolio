@@ -1,0 +1,27 @@
+.contact-container{
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contact-container h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #009dff;
+}
+
+.contact-content{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+
+@media(max-width:768px){
+    .contact-content{
+        flex-direction: column-reverse;
+    }
+}

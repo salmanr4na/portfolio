@@ -1,0 +1,37 @@
+.project-heading h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    padding: 7rem 0 3rem 0;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #009dff;
+}
+
+.project-gallery{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+@media(max-width:860px){
+    .project-heading h2{
+        padding: 7rem 0 0 0;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .port-content{
+        opacity: 2;
+    }
+}
+@media(max-width:345px){
+    .project-heading h2{
+        font-size: 1.7rem;
+        font-weight: 430;
+    }
+
+    .port-content{
+        opacity: 1;
+    }
+
+}

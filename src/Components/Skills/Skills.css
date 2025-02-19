@@ -1,0 +1,99 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem
+}
+.heading h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 550;
+    color: #009dff;
+}
+
+.skill-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.both-skill{
+    height:auto ;
+    width: 40vw;
+    background-color: #02192db7;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: 0.4s ease;
+    margin: 1rem;
+}
+
+.both-skill:hover{
+    transform: scale(1.03);
+}
+
+.skill-content{
+    padding: 1rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.all-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 0.3rem;
+    
+}
+
+.skill-content img{
+    width: 30px;
+}
+
+.all-skill span{
+    margin: 0 0.5rem;
+}
+.card-heading{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media(max-width:860px){
+    .skill-div{
+        flex-wrap: wrap;
+    }
+    .both-skill{
+       width: 435px;
+    }
+    .heading h1{
+        font-size: 2.3rem;
+        font-weight: 520;
+    }
+    
+}
+@media(max-width:490px){
+    .both-skill{
+       width: 270px;
+    }
+    .heading h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .all-skill{
+        width: 6.9rem;
+        padding: 0.3rem;
+        border-radius: 10px;
+        margin: 0.2rem;
+    }
+    
+    .skill-content img{
+        width: 15px;
+    }
+    
+    .all-skill span{
+        font-size: 0.8rem;
+    }
+    
+}
