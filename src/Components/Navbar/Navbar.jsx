@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 import './Navbar.css'
 import MobileNav from './MobileNav/MobileNav';
 
@@ -17,19 +16,19 @@ const Navbar = () => {
     <a href="/home"className='logo'>Salman <span>Rana</span></a>
       <ul>
         <li>
-          <a href="/" className='menu-item'>Home</a>
+          <a href="" className='menu-item'>Home</a>
         </li>
         <li>
-          <a href="/" className='menu-item'>About Me</a>
+          <a href="" className='menu-item'>About Me</a>
         </li>
         <li>
-          <a href="/" className='menu-item'>Skills</a>
+          <a href="" className='menu-item'>Skills</a>
         </li>
         <li>
-          <a href="/" className='menu-item'>Projects</a>
+          <a href="" className='menu-item'>Projects</a>
         </li>
         <li>
-          <a href="/" className='menu-item'>Contact Me</a>
+          <a href="" className='menu-item'>Contact Me</a>
         </li>
         <button className='contact-btn' onClick={()=>{}}> <a className='hyper' target='blank' href="https://e-mailer.link/100215440439">Hire Me</a> </button>
       </ul>
